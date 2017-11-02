@@ -34,8 +34,9 @@ pip install tensorflow-gpu keras  (no tensorflow)
 4. Restart jupyter (or at least the kernel for the notebook) to pick up the new version
 (Well, I found out the hard way, when I got a __version__ not found. What??? This is how I discovered print(dir(tf))).
 
-5. Surprise! yes, we have a special talent to build up stories and be surprised by them
+5. Surprise! yes, we have a special talent to build up stories and be surprised by them.
 I mean, "Failed to load the native TensorFlow runtime" is quite a message.
+
 Here is a hint: https://github.com/tensorflow/tensorflow/issues/10026
 
 What do you mean the aws instance has an old version of gcc? I looked at the tensorflow version: 1.4. Then it dawned on me.
@@ -49,14 +50,14 @@ You will also see: TensorFlow Version: 1.2.0 which is apparently the highest ten
 
 Here are some good results for "he saw an old yellow truck":
 
-Epochs 10  Keep prob 0.75  "il a vu un vieux camion prochain"
-Epochs 10  Keep prob 0.5   "il a vu la vieille voiture"
-Epochs 10  Keep prob 0.85  "il vu cette vieille voiture"
-Epochs 10  Keep prob 0.45  "il a de petite voiture bleue"
+* Epochs 10  Keep prob 0.75  "il a vu un vieux camion prochain"
+* Epochs 10  Keep prob 0.5   "il a vu la vieille voiture"
+* Epochs 10  Keep prob 0.85  "il vu cette vieille voiture"
+* Epochs 10  Keep prob 0.45  "il a de petite voiture bleue"
 
-And whoa! check out these settings!
-Epochs 12  Keep prob 0.70  "il a vu un vieux camion jaune"
-Talk about perfect translation!  
+   And whoa! check out these settings!
+* Epochs 12  Keep prob 0.70  "il a vu un vieux camion jaune"
+   Talk about perfect translation!  
 
 # Overfitting
 
